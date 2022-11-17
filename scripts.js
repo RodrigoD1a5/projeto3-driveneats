@@ -133,3 +133,4 @@ function enviaMesangemWhatsapp(msg) {
     const linkWhatsapp = `https://wa.me/${numeroContatoWhatsapp}?text=${msg}`;
     window.open(linkWhatsapp);
 }
+
